@@ -1,0 +1,67 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #fafafa;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
+
+/* Logo样式 */
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* 联系信息样式 */
+.contact-info {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #64b5f6;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
